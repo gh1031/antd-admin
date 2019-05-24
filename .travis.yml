@@ -7,3 +7,4 @@ scripts:
   - npm -v
   - npm install
   - npm run build
+  - echo '构建成功'
