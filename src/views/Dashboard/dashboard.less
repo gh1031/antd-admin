@@ -1,0 +1,110 @@
+@import '../../style/variables.less';
+
+.ant-table-thead > tr > th {
+  background: #fff !important;
+}
+.dashboard {
+  background: @gray;
+  .dashboard-row {
+    padding-bottom: 20px;
+  }
+  .sales {
+    width: 100%;
+    .title {
+      margin-left: 32px;
+      font-size: 16px;
+    }
+    #yearly-sales {
+      width: 100%;
+      height: 100%;
+      min-height: 360px;
+    }
+  }
+  .weather-card {
+    margin-bottom: 20px;
+    .weather {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      .left {
+        padding-top: 55px;
+        .left-img {
+          width: 64px;
+          height: 64px;
+          background: red;
+        }
+        .left-text {
+          margin: 16px 0;
+          color: #fff;
+          text-align: center;
+        }
+      }
+      .right {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+        .right-temperature {
+          background: greenyellow;
+          height: 64px;
+          margin-bottom: 16px;
+          font-size: 30px;
+          font-weight: bold;
+          color: #fff;
+        }
+        .right-text {
+          color: #fff;
+        }
+      }
+    }
+  }
+  .commit {
+    .head {
+      color: #fff;
+      text-indent: 24px;
+      font-size: 16px;
+      font-weight: 700;
+      text-overflow: ellipsis;
+      word-wrap: normal;
+      display: -webkit-box;
+      overflow: hidden;
+    }
+    .foot {
+      margin-top: 20px;
+      color: #fff;
+      .description {
+        width: 100%;
+        p {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          margin-right: 64px;
+          text-align: right;
+        }
+      }
+    }
+  }
+  .completed-card {
+    width: 100%;
+    padding: 0;
+    .completed {
+      width: 100%;
+      .title {
+        margin-left: 32px;
+        font-size: 16px;
+      }
+      #completed {
+        width: 100%;
+        height: 100%;
+        min-height: 360px;
+      }
+    }
+  }
+}
+.gray {
+  background: @gray;
+}

@@ -1,0 +1,46 @@
+.sign-in-box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 320px;
+  min-height: 320px;
+  padding: 36px;
+  background: rgba(0,0,0,0.08);
+
+  .logo {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+    img {
+      width: 30px;
+      height: 30px;
+      // transition: all 0.3s linear;
+      animation: hoverme ease-in-out infinite;
+      animation-duration: 4s;
+      // &:hover{
+      //   transform: translateZ(80px) rotate3d(0, 0, 1, 360deg);
+      // }
+    }
+  }
+  .input-box {
+    .login-form-button {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+
+@keyframes hoverme {
+  from {
+    transform: rotate(0deg)
+  }
+  50% {
+    transform: rotate(360deg)
+  }
+  to {
+    transform: rotate(0deg)
+  }
+}

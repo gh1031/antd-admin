@@ -1,0 +1,35 @@
+.header {
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .log-in-out {
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+
+    a {
+      color: rgba(0, 0, 0, 0.65);
+      .anticon-mail {
+        padding: 0 20px;
+        font-size: 18px;
+      }
+      &:hover {
+        color: #1890ff;
+        background-color: rgba(24,144,255,.15);
+      }
+    }
+    .ant-menu {
+      &:hover {
+        color: #1890ff;
+        background-color: rgba(24,144,255,.15);
+        border: none;
+      }
+      .ant-menu-horizontal > .ant-menu-submenu {
+        line-height: 64px;
+        border: none;
+      }
+    }
+  }
+}

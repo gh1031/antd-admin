@@ -1,0 +1,18 @@
+.layout-sider {
+  .logo {
+    height: 48px;
+    line-height: 48px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .ant-layout-sider {
+    background: #fff;
+  }
+  .theme-switch {
+    background: #fff;
+    display: flex;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,50 @@
+.header{
+  height: 200px;
+  background-image: url(../../../assets/img/user_bg.jpg);
+  background-size: cover; 
+  text-align: center;
+  padding-top: 40px;
+ .avatar {
+   width: 64px;
+   height: 64px;
+   margin: 0 auto;
+   border-radius: 50%;
+   overflow: hidden;
+   img {
+     width: 100%;
+   }
+ } 
+ .username {
+  text-align: center;
+ }
+ .email {
+  text-align: center;
+  color: #fff;
+ }
+}
+.number {
+  display: flex;
+  height: 116px;
+  padding: 30px 0;
+  justify-content: space-between;
+  border-bottom: 1px solid #f5f5f5;
+  .left {
+    width: 100%;
+    .title, .earning-number {
+      text-align: center;
+    }
+    border-right: 1px solid #f5f5f5;
+  }
+  .right {
+    width: 100%;
+    .title, .sold-number {
+      text-align: center;
+    }
+  }
+}
+.footer {
+  height: 116px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,30 @@
+.title {
+  display: flex;
+  justify-content: space-between;
+  .item {
+    width: 33.3%;
+    text-align: center;
+    position: relative;
+    div {
+      font-size: 16px;
+    }
+    p {
+      font-size: 22px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 10%;
+      width: 1px;
+      background: #eee;
+      height: 40%;
+    }
+    &:last-child::after{
+      width: 0;
+    }
+  }
+  
+}
