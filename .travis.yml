@@ -1,0 +1,9 @@
+language: node_js
+node_js: 8
+branchs:
+  only: dev
+scripts:
+  - node -v
+  - npm -v
+  - npm install
+  - npm run build
